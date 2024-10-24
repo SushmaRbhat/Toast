@@ -1,0 +1,61 @@
+.notification {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: red;
+  color: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  min-width: 250px;
+}
+.notification svg {
+  font-size: 20px;
+}
+.notification-content {
+  display: inline-flex;
+  align-items: center;
+}
+.notification-content > span {
+  margin-left: 10px;
+}
+.success {
+  background-color: rgb(46, 125, 50);
+}
+.info {
+  background-color: rgb(2, 136, 209);
+}
+.warning {
+  background-color: rgb(237, 108, 2);
+}
+.error {
+  background-color: rgb(211, 47, 47);
+}
+.notification button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  outline: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.top-left {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.top-right {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.bottom-right {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.bottom-left {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
