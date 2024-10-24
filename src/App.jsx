@@ -1,4 +1,4 @@
-import { useCallback, useState } from "react";
+import { useState } from "react";
 import "./App.css";
 import Toast from "./components/Toast";
 import { useToast } from "./components/hooks/useToast";
@@ -6,7 +6,6 @@ import { useToast } from "./components/hooks/useToast";
 function App() {
   const { toast, triggerToast, closeToast } = useToast();
   const { message, type, visible } = toast;
-  const [count, setCount] = useState(0);
 
   return (
     <div className="app">
